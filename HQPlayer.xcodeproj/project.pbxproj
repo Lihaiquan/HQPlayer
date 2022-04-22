@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE4D613C2811681F008D01D1 /* HQPlayer.docc in Sources */ = {isa = PBXBuildFile; fileRef = BE4D613B2811681F008D01D1 /* HQPlayer.docc */; };
 		BE4D614228116820008D01D1 /* HQPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4D61372811681F008D01D1 /* HQPlayer.framework */; };
 		BE4D614728116820008D01D1 /* HQPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4D614628116820008D01D1 /* HQPlayerTests.m */; };
 		BE4D614828116820008D01D1 /* HQPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4D613A2811681F008D01D1 /* HQPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		BE4D61372811681F008D01D1 /* HQPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HQPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4D613A2811681F008D01D1 /* HQPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQPlayer.h; sourceTree = "<group>"; };
-		BE4D613B2811681F008D01D1 /* HQPlayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HQPlayer.docc; sourceTree = "<group>"; };
 		BE4D614128116820008D01D1 /* HQPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4D614628116820008D01D1 /* HQPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQPlayerTests.m; sourceTree = "<group>"; };
 		BE4D6151281168AE008D01D1 /* TXLiteAVSDK_Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXLiteAVSDK_Player.framework; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 			children = (
 				BE4D6151281168AE008D01D1 /* TXLiteAVSDK_Player.framework */,
 				BE4D613A2811681F008D01D1 /* HQPlayer.h */,
-				BE4D613B2811681F008D01D1 /* HQPlayer.docc */,
 			);
 			path = HQPlayer;
 			sourceTree = "<group>";
@@ -199,7 +196,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE4D613C2811681F008D01D1 /* HQPlayer.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

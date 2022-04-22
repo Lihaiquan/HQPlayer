@@ -41,7 +41,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "License" }
+  spec.license = { :type => "Commercial", :text => "Do whatever you want"}
+
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -99,13 +100,16 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.resources = 'Resources/**/*.{nib}','Resources/**/*.{bundle}'
+  spec.source_files = "HQPlayer/*.{h,m,swift}"
 
-  spec.vendored_frameworks = 'Frameworks/**/*.{framework}'
+  # spec.resources = 'Resources/**/*.{nib}','Resources/**/*.{bundle}'
 
-  spec.vendored_libraries =  'Frameworks/**/*.{a}'
+  spec.vendored_frameworks = 'HQPlayer/**/*.{framework}'
+  
 
-  spec.libraries = 'stdc++', 'c++', 'xml2'
+  # spec.vendored_libraries =  'Frameworks/**/*.{a}'
+
+  spec.libraries = 'stdc++', 'c++', 'xml2', 'resolv'
 
   spec.framework = 'VideoToolbox' , 'Accelerate'
 
