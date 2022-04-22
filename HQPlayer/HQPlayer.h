@@ -14,3 +14,4 @@ FOUNDATION_EXPORT double HQPlayerVersionNumber;
 FOUNDATION_EXPORT const unsigned char HQPlayerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <HQPlayer/PublicHeader.h>
+#import <TXLiteAVSDK_Player/TXLivePlayer.h>
