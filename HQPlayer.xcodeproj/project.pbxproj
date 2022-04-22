@@ -11,7 +11,8 @@
 		BE4D614728116820008D01D1 /* HQPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4D614628116820008D01D1 /* HQPlayerTests.m */; };
 		BE4D614828116820008D01D1 /* HQPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4D613A2811681F008D01D1 /* HQPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE4D6152281168AE008D01D1 /* TXLiteAVSDK_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4D6151281168AE008D01D1 /* TXLiteAVSDK_Player.framework */; };
-		BE4D61532811699A008D01D1 /* TXLiteAVSDK_Player.framework in Headers */ = {isa = PBXBuildFile; fileRef = BE4D6151281168AE008D01D1 /* TXLiteAVSDK_Player.framework */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE4D61562812819D008D01D1 /* Dumpty.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4D61542812819D008D01D1 /* Dumpty.h */; };
+		BE4D61572812819D008D01D1 /* Dumpty.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4D61552812819D008D01D1 /* Dumpty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,8 @@
 		BE4D614128116820008D01D1 /* HQPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4D614628116820008D01D1 /* HQPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQPlayerTests.m; sourceTree = "<group>"; };
 		BE4D6151281168AE008D01D1 /* TXLiteAVSDK_Player.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXLiteAVSDK_Player.framework; sourceTree = "<group>"; };
+		BE4D61542812819D008D01D1 /* Dumpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dumpty.h; sourceTree = "<group>"; };
+		BE4D61552812819D008D01D1 /* Dumpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dumpty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 			children = (
 				BE4D6151281168AE008D01D1 /* TXLiteAVSDK_Player.framework */,
 				BE4D613A2811681F008D01D1 /* HQPlayer.h */,
+				BE4D61542812819D008D01D1 /* Dumpty.h */,
+				BE4D61552812819D008D01D1 /* Dumpty.m */,
 			);
 			path = HQPlayer;
 			sourceTree = "<group>";
@@ -95,7 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4D614828116820008D01D1 /* HQPlayer.h in Headers */,
-				BE4D61532811699A008D01D1 /* TXLiteAVSDK_Player.framework in Headers */,
+				BE4D61562812819D008D01D1 /* Dumpty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4D61572812819D008D01D1 /* Dumpty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
