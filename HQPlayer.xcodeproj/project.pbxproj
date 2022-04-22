@@ -13,6 +13,7 @@
 		BE4D6152281168AE008D01D1 /* TXLiteAVSDK_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4D6151281168AE008D01D1 /* TXLiteAVSDK_Player.framework */; };
 		BE4D61562812819D008D01D1 /* Dumpty.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4D61542812819D008D01D1 /* Dumpty.h */; };
 		BE4D61572812819D008D01D1 /* Dumpty.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4D61552812819D008D01D1 /* Dumpty.m */; };
+		BE4D615828128A97008D01D1 /* TXLiteAVSDK_Player.framework in Headers */ = {isa = PBXBuildFile; fileRef = BE4D6151281168AE008D01D1 /* TXLiteAVSDK_Player.framework */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4D614828116820008D01D1 /* HQPlayer.h in Headers */,
+				BE4D615828128A97008D01D1 /* TXLiteAVSDK_Player.framework in Headers */,
 				BE4D61562812819D008D01D1 /* Dumpty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
